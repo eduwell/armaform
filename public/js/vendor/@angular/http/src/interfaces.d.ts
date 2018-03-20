@@ -45,7 +45,6 @@ export declare abstract class XSRFStrategy {
  * @experimental
  */
 export interface RequestOptionsArgs {
-<<<<<<< Updated upstream
     url?: string | null;
     method?: string | RequestMethod | null;
     /** @deprecated from 4.0.0. Use params instead. */
@@ -56,18 +55,6 @@ export interface RequestOptionsArgs {
         [key: string]: any | any[];
     } | null;
     headers?: Headers | null;
-=======
-    url?: string;
-    method?: string | RequestMethod;
-    /** @deprecated from 4.0.0. Use params instead. */
-    search?: string | URLSearchParams | {
-        [key: string]: any | any[];
-    };
-    params?: string | URLSearchParams | {
-        [key: string]: any | any[];
-    };
-    headers?: Headers;
->>>>>>> Stashed changes
     body?: any;
     withCredentials?: boolean | null;
     responseType?: ResponseContentType | null;
@@ -85,19 +72,10 @@ export interface RequestArgs extends RequestOptionsArgs {
  * @experimental
  */
 export interface ResponseOptionsArgs {
-<<<<<<< Updated upstream
     body?: string | Object | FormData | ArrayBuffer | Blob | null;
     status?: number | null;
     statusText?: string | null;
     headers?: Headers | null;
     type?: ResponseType | null;
     url?: string | null;
-=======
-    body?: string | Object | FormData | ArrayBuffer | Blob;
-    status?: number;
-    statusText?: string;
-    headers?: Headers;
-    type?: ResponseType;
-    url?: string;
->>>>>>> Stashed changes
 }

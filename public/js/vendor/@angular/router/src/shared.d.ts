@@ -59,8 +59,4 @@ export interface ParamMap {
 export declare function convertToParamMap(params: Params): ParamMap;
 export declare function navigationCancelingError(message: string): Error;
 export declare function isNavigationCancelingError(error: Error): any;
-<<<<<<< Updated upstream
 export declare function defaultUrlMatcher(segments: UrlSegment[], segmentGroup: UrlSegmentGroup, route: Route): UrlMatchResult | null;
-=======
-export declare function defaultUrlMatcher(segments: UrlSegment[], segmentGroup: UrlSegmentGroup, route: Route): UrlMatchResult;
->>>>>>> Stashed changes

@@ -10,14 +10,8 @@ export interface AotCompilerOptions {
     locale?: string;
     i18nFormat?: string;
     translations?: string;
-<<<<<<< Updated upstream
     missingTranslation?: MissingTranslationStrategy;
     enableLegacyTemplate?: boolean;
     enableSummariesForJit?: boolean;
     preserveWhitespaces?: boolean;
-=======
-    enableLegacyTemplate?: boolean;
-    /** preamble for all generated source files */
-    genFilePreamble?: string;
->>>>>>> Stashed changes
 }

@@ -4,11 +4,7 @@ import { ReflectiveKey } from './reflective_key';
 export interface InjectionError extends Error {
     keys: ReflectiveKey[];
     injectors: ReflectiveInjector[];
-<<<<<<< Updated upstream
     constructResolvingMessage: (keys: ReflectiveKey[]) => string;
-=======
-    constructResolvingMessage: (this: InjectionError) => string;
->>>>>>> Stashed changes
     addKey(injector: ReflectiveInjector, key: ReflectiveKey): void;
 }
 /**

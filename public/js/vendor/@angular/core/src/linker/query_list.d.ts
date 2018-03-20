@@ -76,9 +76,6 @@ export declare class QueryList<T> {
     setDirty(): void;
     /** internal */
     readonly dirty: boolean;
-<<<<<<< Updated upstream
     /** internal */
     destroy(): void;
-=======
->>>>>>> Stashed changes
 }

@@ -10,14 +10,10 @@ import { Summary, SummaryResolver } from '../summary_resolver';
 import { OutputContext } from '../util';
 import { StaticSymbol, StaticSymbolCache } from './static_symbol';
 import { ResolvedStaticSymbol, StaticSymbolResolver } from './static_symbol_resolver';
-<<<<<<< Updated upstream
 export declare function serializeSummaries(forJitCtx: OutputContext, summaryResolver: SummaryResolver<StaticSymbol>, symbolResolver: StaticSymbolResolver, symbols: ResolvedStaticSymbol[], types: {
     summary: CompileTypeSummary;
     metadata: CompileNgModuleMetadata | CompileDirectiveMetadata | CompilePipeMetadata | CompileTypeMetadata;
 }[]): {
-=======
-export declare function serializeSummaries(summaryResolver: SummaryResolver<StaticSymbol>, symbolResolver: StaticSymbolResolver, symbols: ResolvedStaticSymbol[], types: CompileTypeSummary[]): {
->>>>>>> Stashed changes
     json: string;
     exportAs: {
         symbol: StaticSymbol;
@@ -31,7 +27,4 @@ export declare function deserializeSummaries(symbolCache: StaticSymbolCache, jso
         importAs: string;
     }[];
 };
-<<<<<<< Updated upstream
 export declare function createForJitStub(outputCtx: OutputContext, reference: StaticSymbol): void;
-=======
->>>>>>> Stashed changes

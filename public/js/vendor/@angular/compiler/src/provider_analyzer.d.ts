@@ -6,10 +6,7 @@
  * found in the LICENSE file at https://angular.io/license
  */
 import { CompileDirectiveMetadata, CompileNgModuleMetadata, CompileProviderMetadata, CompileQueryMetadata } from './compile_metadata';
-<<<<<<< Updated upstream
 import { CompileReflector } from './compile_reflector';
-=======
->>>>>>> Stashed changes
 import { ParseError, ParseSourceSpan } from './parse_util';
 import { AttrAst, DirectiveAst, ProviderAst, QueryMatch, ReferenceAst } from './template_parser/template_ast';
 export declare class ProviderError extends ParseError {
@@ -23,11 +20,7 @@ export declare class ProviderViewContext {
     reflector: CompileReflector;
     component: CompileDirectiveMetadata;
     errors: ProviderError[];
-<<<<<<< Updated upstream
     constructor(reflector: CompileReflector, component: CompileDirectiveMetadata);
-=======
-    constructor(component: CompileDirectiveMetadata);
->>>>>>> Stashed changes
 }
 export declare class ProviderElementContext {
     viewContext: ProviderViewContext;

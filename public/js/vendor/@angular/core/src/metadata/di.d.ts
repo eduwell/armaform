@@ -293,11 +293,7 @@ export interface ViewChildrenDecorator {
      * @stable
      * @Annotation
      */
-<<<<<<< Updated upstream
     (selector: Type<any> | Function | string, opts?: {
-=======
-    (selector: Type<any> | Function | string, {read}?: {
->>>>>>> Stashed changes
         read?: any;
     }): any;
     new (selector: Type<any> | Function | string, opts?: {

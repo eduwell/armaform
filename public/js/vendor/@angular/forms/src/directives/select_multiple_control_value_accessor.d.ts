@@ -46,11 +46,7 @@ export declare class SelectMultipleControlValueAccessor implements ControlValueA
     onTouched: () => void;
     compareWith: (o1: any, o2: any) => boolean;
     private _compareWith;
-<<<<<<< Updated upstream
     constructor(_renderer: Renderer2, _elementRef: ElementRef);
-=======
-    constructor(_renderer: Renderer, _elementRef: ElementRef);
->>>>>>> Stashed changes
     writeValue(value: any): void;
     registerOnChange(fn: (value: any) => any): void;
     registerOnTouched(fn: () => any): void;
