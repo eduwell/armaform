@@ -1,5 +1,5 @@
 /*
-    This file will send the file uploaded the the filestack Rest API
+ This file will send the file uploaded the the filestack Rest API
  */
 
 import { Injectable } from "@angular/core";
@@ -15,12 +15,12 @@ export class FileUploadService {
     storeFile(fileUploaded) {
 
         console.log(fileUploaded);
-         //let options = new RequestOptions({ headers: headers });
+        //let options = new RequestOptions({ headers: headers });
 
-         let body = fileUploaded;
-         console.log(body);
-         const headers = new Headers({'Content-Type': 'multipart/form-data'});
-         var completeUrl = GlobalVariable.BASE_URL + 'store_file';
+        let body = fileUploaded;
+        console.log(body);
+        const headers = new Headers({'Content-Type': 'multipart/form-data'});
+        var completeUrl = GlobalVariable.BASE_URL + 'store_file';
         return this._http.post(completeUrl, body, {headers: headers})
             .map(response => response)
             .catch(error => Observable.throw(error.json()));

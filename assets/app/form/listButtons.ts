@@ -14,11 +14,12 @@ import {StepService} from "../Engine/step.service";
             <div class="jumbotron" *ngIf="_stepService.language == 'en' && objStep.configuration.header_note_en && objStep.configuration.header_note_en != ''">
                 <p [innerHTML] = "objStep.configuration.header_note_en"></p>
             </div>
+            <div class="jumbotron" *ngIf="_stepService.language == 'fr' && objStep.configuration.header_note_fr && objStep.configuration.header_note_fr != ''">
+                <p [innerHTML] = "objStep.configuration.header_note_fr"></p>
+            </div>
             <div class="jumbotron" *ngIf="_stepService.language == 'es' && objStep.configuration.header_note_es && objStep.configuration.header_note_es != ''">
                 <p [innerHTML] = "objStep.configuration.header_note_es"></p>
             </div>
-            
-        
             <ul class="items"  *ngIf="_stepService.language == 'fr'" >
                 <li  *ngFor="let valeurList of currentList_fr">
                      <!--data-toggle="tooltip" title=" "-->

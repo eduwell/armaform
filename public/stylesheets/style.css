@@ -77,12 +77,20 @@ label.control-label span { cursor: pointer; }
     text-align: center;
 }
 
-/* CAR VERSION */
+/* RED VERSION */
 .panel-heading-red {
     color: #FFD700; background: darkred;
     font-family: Georgia;
     text-align: center;
 }
+
+/* BLUE VERSION */
+.panel-heading-blue {
+    color: #5B3C10; background: #87CEFA ;
+    font-family: Georgia;
+    text-align: center;
+}
+
 
 .panel-default > .panel-body-custom {
     background:  #1E7FCB;
@@ -229,7 +237,7 @@ section {
     border-radius: 10px;
 }
 .buttonBlue {
-    background-color: #0000FF;
+    background-color: #87CEFA;
     padding: 15px 32px;
     border-radius: 50%;
     -webkit-transition-duration: 0.2s; /* Safari */
@@ -237,8 +245,16 @@ section {
 }
 
 .buttonBlue:hover {
-    border: 2px solid #0000FF;
+    border: 2px solid #87CEFA;
     border-radius: 10px;
+    text-decoration-color: #5B3C10;
+}
+.buttonBlueHover {
+    background-color: #CECECE;
+    border: 2px solid #CECECE;
+    border-radius: 50%;
+
+    padding: 15px 20px;
 }
 
 .buttonOrange {
