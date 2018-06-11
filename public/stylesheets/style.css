@@ -79,7 +79,7 @@ label.control-label span { cursor: pointer; }
 
 /* RED VERSION */
 .panel-heading-red {
-    color: #FFD700; background: darkred;
+    color: #FFFFFF; background: black;
     font-family: Georgia;
     text-align: center;
 }
@@ -197,8 +197,20 @@ section {
 }
 
 
+.buttonBlue {
+    background-color: #87CEFA;
+    color: #e0f8e0;
+
+    padding: 15px 20px;
+    border-radius: 50%;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+
+}
+
+
 .buttonRed {
-    background-color: darkred;
+    background-color: rgba(243, 22, 9, 0.8);
     color: #e0f8e0;
     text-decoration-color: #87CEFA;
     padding: 15px 20px;
@@ -208,20 +220,20 @@ section {
 
 }
 
-.buttonRed:hover {
-    border: 2px solid #ED0000;
-    border-radius: 50%;
-    text-decoration-color: #87CEFA;
-    color: #87CEFA;
-    padding: 15px 20px;
-}
+/*.buttonRed:hover {*/
+    /*border: 2px solid #ED0000;*/
+    /*border-radius: 50%;*/
+    /*text-decoration-color: #87CEFA;*/
+    /*color: #87CEFA;*/
+    /*padding: 15px 20px;*/
+/*}*/
 
 .buttonRedHover {
-    background-color: #FFD700 ;
+    background-color: #878787 ;
     border: 2px solid #ED0000;
     border-radius: 50%;
     text-decoration-color: darkred;
-    color: darkred;
+    color: #fff;
     padding: 15px 20px;
 }
 .buttonBrown {
@@ -242,10 +254,10 @@ section {
     border-radius: 50%;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
-}
+} ,;
 
 .buttonBlue:hover {
-    border: 2px solid #87CEFA;
+    border: 2px solid #2102fa;
     border-radius: 10px;
     text-decoration-color: #5B3C10;
 }

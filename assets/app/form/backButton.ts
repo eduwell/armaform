@@ -99,7 +99,6 @@ export class BackButtonComponent {
                 }
             }
         }
-// console.log(this.idxStepObj);
 
         this.change.emit({ newIdxStepObj: this.idxStepObj});
     }}
