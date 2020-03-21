@@ -7,7 +7,7 @@ Features:
 Multilingual
 Custom design
 Email notifications
-Technology Stack Included in this stack are the following technologies:
+Technology Stack:
 
 Front-end Framework : Angular 4
 
